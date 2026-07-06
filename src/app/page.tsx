@@ -1,5 +1,5 @@
 import Navbar from '@/components/Navbar'
-import Hero from '@/components/Hero'
+import HeroWrapper from '@/components/HeroWrapper'
 import ProchaineCourse from '@/components/ProchaineCourse'
 import Calendrier from '@/components/Calendrier'
 import Actualites from '@/components/Actualites'
@@ -10,7 +10,7 @@ export default function Home() {
     <>
       <Navbar />
       <main>
-        <Hero />
+        <HeroWrapper />
         <ProchaineCourse />
         <Calendrier />
         <Actualites />
